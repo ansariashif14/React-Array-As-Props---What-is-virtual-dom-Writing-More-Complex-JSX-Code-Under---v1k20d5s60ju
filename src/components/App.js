@@ -5,9 +5,7 @@ const Join = (props) =>{
   let word=props.join(',');
   return(
     <div id ="join">
-      {
-    {word}
-    }
+    <p>{props.words.join(",")}</p>
     </div>
   )
 }
